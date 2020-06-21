@@ -19,8 +19,13 @@ body {
   border-color: pink;
 }
 
+head {
+  margin-bottom: 2rem;
+}
+
 main {
-  background-color: black;}
+  background-color: black;
+}
 
 .card {
   background-color: black;
