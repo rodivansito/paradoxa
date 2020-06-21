@@ -55,3 +55,24 @@ li {
 footer {
   background-color: #560BE9;
 }
+
+@media only screen and (max-width:576px){
+
+  html {
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 3rem;
+
+  }
+
+img {
+  object-fit: cover;
+}
+
+li {
+
+}
+
+}

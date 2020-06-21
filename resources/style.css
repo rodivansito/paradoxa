@@ -88,11 +88,23 @@ footer {
 }
 
 
+
 @media only screen and (max-width:576px){
 
-  h1{
-    font-size: 2rem;
+  html {
+    max-width: 375px;
   }
 
+  h1 {
+     object-fit: cover;
+
+  }
+
+img {
+  object-fit: cover;
+}
+li {
+  justify-content: flex-start;
+}
 
 }
