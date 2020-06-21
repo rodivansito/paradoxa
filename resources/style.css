@@ -5,7 +5,7 @@ html {
 
 h1 {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   color: white;
 }
 
@@ -85,4 +85,15 @@ margin: 0.5rem;
 
 footer {
   background-color: #560BE9;
+}
+
+
+@media only screen and (max-width:576px){
+
+  .navbar-brand img {
+    height: 120px;
+    width: 131px;
+  }
+
+
 }

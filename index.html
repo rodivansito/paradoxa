@@ -57,14 +57,16 @@
             <div class="card">
             <div class="card-body">
               <ul>
-                <li>Paradoxa is a concept that aims to promote the fine arts through our products. Our first product is a Marty Feldman handmade art printed in a 100% polyester, 14"x14" Pillow.</li>
-                <a href="https://www.instagram.com/art.by.parcifal/"><li class="instagram"><i class="fab fa-instagram">Art by Parcifal</i></li></a>
+                <li>Paradoxa is a concept that aims to promote the fine arts through our products. Our first product is a <a href="https://g.co/kgs/6dRnV8" target="_blank">Marty Feldman</a> handmade art printed in a 100% polyester, 14"x14" Pillow.</li>
+                <a href="https://www.instagram.com/art.by.parcifal/" target="
+                "><li class="instagram"><i class="fab fa-instagram">Art by Parcifal</i></li></a>
 
-                <li>Price: $ 40.00</li>
-                <li>Free shipping inside the US: 7-14 days estimated delivery</li>
+                <li>Price: $ 45.00</li>
+                <li>Made in the U.S</li>
+                <li>Free shipping inside the U.S: 10-14 days estimated delivery</li>
                 <li>1.Make the purchase</li>
-                <li>2.We will send you a confirmation email with delivery information.</li>
-                <li>3.Decorate your house with this beatiful Pillow.</li>
+                <li>2.We will send you a confirmation email with a delivery update.</li>
+                <li>3.Decorate your house with fine arts.</li>
               </ul>
 
 
@@ -77,33 +79,33 @@
           </div>
 
           <div class="col-sm-6">
-          <div id="paypal-button-container"></div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-  <script>
-    paypal.Buttons({
-        style: {
-            shape: 'rect',
-            color: 'gold',
-            layout: 'vertical',
-            label: 'paypal',
+            <div id="paypal-button-container"></div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script>
+      paypal.Buttons({
+          style: {
+              shape: 'rect',
+              color: 'gold',
+              layout: 'vertical',
+              label: 'buynow',
 
-        },
-        createOrder: function(data, actions) {
-            return actions.order.create({
-                purchase_units: [{
-                    amount: {
-                        value: '40'
-                    }
-                }]
-            });
-        },
-        onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
-                alert('Transaction completed by ' + details.payer.name.given_name + '!');
-            });
-        }
-    }).render('#paypal-button-container');
-  </script>
+          },
+          createOrder: function(data, actions) {
+              return actions.order.create({
+                  purchase_units: [{
+                      amount: {
+                          value: '45'
+                      }
+                  }]
+              });
+          },
+          onApprove: function(data, actions) {
+              return actions.order.capture().then(function(details) {
+                  alert('Transaction completed by ' + details.payer.name.given_name + '!');
+              });
+          }
+      }).render('#paypal-button-container');
+    </script>
           </div>
 
         </div>
@@ -129,9 +131,10 @@
 
       <div class="row">
         <div class="col-sm-12">
-          <a class="icon" href="https://www.instagram.com/theparadox.art/"><i class="fab fa-instagram fa-3x"></i></a>
-          <a class="icon" href="https://www.facebook.com/paradoxa.art/?modal=admin_todo_tour"><i class="fab fa-facebook-f fa-3x"></i></a>
-          <a class="icon" href="mailto:paradoxashop@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+          <a class="icon" href="https://www.instagram.com/theparadox.art/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+          <a class="icon" href="https://www.facebook.com/paradoxa.art/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f fa-3x"></i></a>
+          <a class="icon" href="mailto:paradoxashop@gmail.com" target="
+          "><i class="fas fa-envelope fa-3x"></i></a>
         </div>
       </div>
 
